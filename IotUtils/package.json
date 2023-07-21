@@ -1,0 +1,33 @@
+{
+  "name": "amIotClient",
+  "version": "1.0.0",
+  "description": "PixelShine IoT client",
+  "main": "psiotclient.js",
+  "bin": "psiotclient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Chang",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "pkg": {
+    "script": "*.js"
+  },
+  "dependencies": {
+    "@google-cloud/iot": "^1.0.0",
+    "@google-cloud/pubsub": "^0.29.0",
+    "@google-cloud/storage": "^3.0.1",
+    "adm-zip": "^0.4.13",
+    "googleapis": "^40.0.0",
+    "jsonwebtoken": "^8.5.0",
+    "log4js": "^4.0.2",
+    "mqtt": "^3.0.0",
+    "single-instance": "0.0.1",
+    "uuid": "^3.3.2",
+    "yargs": "^13.0.0"
+  },
+  "devDependencies": {}
+}
